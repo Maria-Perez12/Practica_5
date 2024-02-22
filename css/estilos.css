@@ -1,0 +1,66 @@
+
+:root{
+    --fondoDiv: black;
+    --colorTexto: white;
+    --colorPeligro: red;
+    --colormenu: rgb(45, 128, 206);
+    --cinicio: teal;
+    --hover: rgb(196, 61, 166);
+    --chome: rgb(165, 226, 50);
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+  }
+  nav a.home {
+    background-color: var(--cinicio);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 2px;
+  }
+  
+  nav a.enlace1, .enlace2, .enlace3 {
+    background-color: var(--colormenu);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 2px;
+  }
+  nav a.home:hover {
+    background-color: var(--chome);
+    color: #fff;
+  }
+
+  nav a.enlace1:hover {
+    background-color: var(--hover);
+    color: #fff;
+  }
+  nav a.enlace2:hover {
+    background-color: var(--hover);
+    color: #fff;
+  }
+  nav a.enlace3:hover {
+    background-color: var(--hover);
+    color: #fff;
+  }
+body{
+  font-family: Arial, Helvetica;
+  font-size: 16px;
+}
+
+.imagen_producto{
+  text-align: center;
+  height: 300px;
+  margin-left: 500px;
+  margin-right: 50px;
+}
+.imagen2{
+  text-align: center;
+  height: 300px;
+  margin-left: 370px;
+ 
+}
